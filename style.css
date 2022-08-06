@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: auto;
+    background-color: tomato;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    justify-content: center;
+    margin-top: 30vh;
+
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+    display: inline-block;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 10px;
+
+}
+
+.input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.label {
+    text-align: center;
+    font-weight: bold;
+}
